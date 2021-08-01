@@ -38,11 +38,14 @@ function showToDos(text) {
     const li = document.createElement("li");
     const delBtn = document.createElement("button");
     const span = document.createElement("span");
+    const todo = document.createElement("todo");
     const newId = toDos.length + 1;
-    delBtn.innerHTML = "❌";
+    delBtn.innerHTML = "✔";
+    delBtn.classList.add("todo");
     delBtn.addEventListener("click", deleteToDo)
     span.innerHTML = text;
     li.appendChild(delBtn);
+    delBtn.appendChild(todo);
     li.appendChild(span);
     li.id = newId;
     toDolist.appendChild(li);

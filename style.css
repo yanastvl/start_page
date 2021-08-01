@@ -1,16 +1,13 @@
 body {
-
     width: 100%;
 
     font-size: 35px;
     line-height: 1.5;
     font-family: Georgia, sans-serif;
-
+    text-shadow: black 0 0 4px;
     margin-top: 10%;
     display: block;
     text-align: center;
-
-
 }
 
 .js-clock {
@@ -61,4 +58,27 @@ body {
     z-index: -1;
 }
 
+li {
+    font-style: italic;
 
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.todo {
+    color: green;
+    margin-right: 10px;
+    border-radius: 25px; background: white;
+}
+
+input {
+    text-align: center;
+    border-radius: 25px;
+}

@@ -1,5 +1,5 @@
 const body = document.querySelector("body");
-const IMAGE_NUMBER = 3;
+const IMAGE_NUMBER = 4;
 
 function showImage(number) {
     const img = new Image();
