@@ -1,0 +1,64 @@
+body {
+
+    width: 100%;
+
+    font-size: 35px;
+    line-height: 1.5;
+    font-family: Georgia, sans-serif;
+
+    margin-top: 10%;
+    display: block;
+    text-align: center;
+
+
+}
+
+.js-clock {
+    color: white;
+}
+
+.numbers {
+    margin: 0;
+}
+
+.js-toDoList {
+    margin: 0;
+    color: white;
+    list-style-type: none;
+
+}
+
+.greetings {
+    margin: 0;
+
+    color: white;
+}
+
+.js-weather {
+    color: white;
+
+}
+
+.form {
+    display: none;
+}
+
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+.bgImage {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+
